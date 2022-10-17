@@ -7,12 +7,18 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  padding-left: 64px;
+  display: flex;
+  align-items: center;
+
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +34,38 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.header_title{
+  margin: 0;
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  
+  position: relative;
+
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+
+}
+.header__link {
+  text-decoration: none;
+  transition: opacity .4s ease;
+}
+
+.logo{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+.logo_place_header{
+  position: absolute;
+  top: 30px;
+  height: 32px;
 }
