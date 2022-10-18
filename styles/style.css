@@ -94,6 +94,7 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -103,6 +104,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
+  margin: 0;
 }
 
 .two-columns__main-text{
@@ -114,8 +116,12 @@
 }
 
 .two-columns__paragraph{
+  margin-top:0;
+  font-weight: normal;
   line-height: 34px;
   font-size: 24px;
+
+}
+.two-columns__span-accent{
   font-weight: 600px;
 }
-
