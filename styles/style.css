@@ -174,3 +174,35 @@
   font-weight: normal;
   margin-top: 20px;
 }
+
+.feynman {
+  padding-top: 100px;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feynman__illustration {
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  bottom: 0;
+  left: 0;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
