@@ -70,13 +70,12 @@
   width: 765px;
   height: 608px;
   right: 0;
-  bottom: 0;
+  bottom:0;
 
 }
 
 .header__square-pic {
   position: absolute;
-  background-position: center;
   height: 568px;
   width: 568px;
   background-color: #2F80ED;
@@ -84,3 +83,39 @@
   top: 64px;
 
 }
+
+.description {
+  justify-content: center;
+  display: flex;
+  padding-top: 100px;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2F80ED;
+}
+
+.two-columns__main-text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600px;
+}
+
