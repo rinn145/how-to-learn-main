@@ -14,9 +14,9 @@ h3{
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.logo {
- /* asdas */
-}
+/* .logo {
+  asdas 
+} */
 
 .logo_place_header {
   position: absolute;
@@ -37,12 +37,6 @@ h3{
 
 /* и элемента с модификатором вида ключ-значение */
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .header_title{
   margin: 0;
@@ -98,7 +92,6 @@ h3{
 }
 
 .two-columns {
-  width: 80%;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -111,7 +104,6 @@ h3{
   font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
-  margin: 0;
 }
 
 .two-columns__main-text{
@@ -193,7 +185,7 @@ h3{
   background-image: url("../images/feynman.png");
   background-repeat:no-repeat;
   background-color: #F2F2F2;
-  background-position: bottom left ;
+  background-position: bottom left;
   background-size: 867px 637px;
   position: relative;
   margin-top: 100px;
@@ -206,7 +198,7 @@ h3{
   font-size: 120px;
   font-weight: 600px;
   text-align: center;
-  margin: auto  ;
+  margin: auto;
   padding: 100px;
   z-index: 1;
 }
@@ -260,6 +252,7 @@ h3{
   width: 200px;
   color: white;
   margin-top: 80px;
+  margin-right: 0;
 }
 
 .table__heading_theme_dark {
@@ -302,13 +295,13 @@ h3{
   margin: 0 auto;
 }
 
-.footer__column {
-  /* line-height: 30px;
+/* .footer__column {
+   line-height: 30px;
   font-size: 18px;
-  font-weight: normal; */
-  /* display: flex;
-  flex-direction:column; */
-}
+  font-weight: normal; 
+   display: flex;
+  flex-direction:column; 
+} */
 
 .footer__column_content-copyright {
   flex-basis: 711px;
