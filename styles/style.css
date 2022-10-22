@@ -23,7 +23,7 @@
   max-height: 756px;
   position: relative;
   display: flex;
-  z-index: 1;
+  z-index: 2;
   align-items: center;
 }
 
@@ -38,7 +38,7 @@
   line-height: 96px;
   padding-left: 64px;
   position: relative;
-
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -50,11 +50,13 @@
   line-height: 25px;
   font-weight: normal;
   margin: 0;
+  z-index: 3;
 }
 
 .header__link {
   text-decoration: none;
   color: #2F80ED;
+  z-index: 1;
 }
 
 .header__main-illustration{
@@ -64,7 +66,7 @@
   height: 608px;
   right: 0;
   bottom:0;
-
+  z-index: 1;
 }
 
 .header__square-pic {
