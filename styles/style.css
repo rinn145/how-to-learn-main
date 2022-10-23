@@ -121,8 +121,9 @@
 }
 
 .two-columns__span-accent{
-  font-weight: 600px;
+  font-weight: 600;
   font-weight: bold;
+
 }
 
 /* digits */
@@ -138,15 +139,13 @@
 
 .section-title{
   text-align: center;
-  font-weight: 600;
-  line-height: 1.15px;
+  /* font-weight: 600; */
+  line-height: 1.15;
   font-size: 60px;
   margin: 0;
-  padding: 20px;
 }
 
 .section-subtitle{
-  text-align: justify 60%;
   text-align: center;
   font-weight: normal;
   line-height: 34px;
@@ -179,6 +178,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom:0;
 }
 
 /* feynman */
@@ -243,7 +243,6 @@
 }
 
 .section-title_theme_dark {
-  margin-bottom: 20px;
   color: white;
   z-index: 2;
 }
@@ -316,7 +315,7 @@
   flex-direction:column;
 } */
 
-.footer_column_content-copyright {
+.footer__column_content-copyright {
   flex-basis: 711px;
   position: relative;
   display: flex;
@@ -345,6 +344,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top:0;
 }
 
 .footer__column-links {
@@ -354,6 +354,7 @@
   text-decoration: none;
   color: white;
   margin: 0;
+  margin-bottom: 16px;
   padding: 0;
   list-style-type: none;
 }
