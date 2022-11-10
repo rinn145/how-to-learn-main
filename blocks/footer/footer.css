@@ -1,0 +1,11 @@
+.footer {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  min-height: 350px;
+  box-sizing: border-box;
+  background-color: rgb(31,31,31);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
