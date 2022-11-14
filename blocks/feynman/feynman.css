@@ -1,10 +1,11 @@
 .feynman {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-image: url("../../../images/feynman.png");
+  background-image: url("../../images/feynman.png");
   background-repeat:no-repeat;
   background-color: #F2F2F2;
   background-position: bottom left;
   background-size: 867px 637px;
+  box-sizing: border-box;
   position: relative;
   padding-top: 100px;
   min-height: 890px;

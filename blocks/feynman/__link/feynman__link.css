@@ -1,4 +1,4 @@
-.feynman__link {
+.feynman__link{
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
@@ -8,4 +8,9 @@
   top: 50%;
   right: 48px;
   z-index: 1;
+}
+
+.feynman__link:hover{
+  transition: 1s;
+  opacity: 0.2;
 }

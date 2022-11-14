@@ -2,6 +2,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  width: 790px;
+  max-width: 790px;
+  margin-top: 50px;
   margin-bottom: 36px;
+  margin-left: 0;
 }

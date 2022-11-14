@@ -3,3 +3,8 @@
   height: 38px;
   object-fit: contain;
 }
+
+.resources__logo:hover{
+  opacity: 0.2;
+  transition: 1s;
+}
